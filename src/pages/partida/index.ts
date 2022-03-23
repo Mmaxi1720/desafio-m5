@@ -1,7 +1,7 @@
 import { state } from "../../state";
 
 export function initMove(param): HTMLElement {
-  let counter = 100;
+  let counter = 5;
   const countdown = setInterval(() => {
     counter--;
     const counterEl = div.querySelector(".master-circle");

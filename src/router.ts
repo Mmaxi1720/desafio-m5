@@ -3,7 +3,7 @@ import { initInstructions } from "./pages/instrucciones";
 import { initMove } from "./pages/partida";
 import { initResults } from "./pages/resultado";
 
-const BASE_PATH = "/dwf-m5";
+const BASE_PATH = "/desafio-m5";
 
 const routes = [
   {
