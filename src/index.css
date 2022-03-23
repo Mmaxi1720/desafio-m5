@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: darkslategrey;
+  color: white;
+  height: auto;
+}
+.container {
+  height: auto;
+}
+.container__hand {
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 376px) {
+  .container__hand {
+    margin: 0 auto;
+    gap: 50px;
+    justify-content: center;
+  }
+}
+.hands__top {
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
