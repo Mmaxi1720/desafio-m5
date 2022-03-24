@@ -1,0 +1,2 @@
+*{box-sizing:border-box}body{background-color:#2f4f4f;color:#fff;font-family:Fredoka,sans-serif;height:auto;margin:0}.container{height:529px}.container__hand{display:flex;justify-content:space-between;margin:0 30px}@media (min-width:376px){.container__hand{gap:50px;justify-content:center;margin:0 auto}}.hands__top{align-items:center;display:flex;position:absolute;top:0;transform:rotate(180deg)}
+/*# sourceMappingURL=index.2cdc76de.css.map */
